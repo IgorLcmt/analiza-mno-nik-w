@@ -127,4 +127,4 @@ if api_key and query_input:
     except Exception as e:
         st.error(f"❌ Error: {e}")
 else:
-    st.info("👉 Enter company profile to begin.")
+    st.info("<---- Enter company profile to begin.")
